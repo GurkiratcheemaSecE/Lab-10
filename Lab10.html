@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Practice Lab</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="Lab10.css">
+</head>
+<body>
+
+<!-- Navigation Bar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <a class="navbar-brand" href="#">Explore Canada</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#hero">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#portfolio">Cities</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+<!-- Hero Section -->
+<section id="hero" class="hero-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <h1>Best cities in canada</h1>
+        <p>Explore The information provided</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Portfolio Section -->
+<section id="portfolio" class="portfolio-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card">
+          <img class="card-img-top" src="https://www.travelandleisure.com/thmb/WZfCPml-1I4pC4JFeYdTsp5BYQw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/toronto-ontario-canada-lead-TORONTOTG0721-bfa723dac6c741d0bd549c90c2660968.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Toronto</h5>
+            <p class="card-text">Toronto is the capital city of Ontario and the largest city in Canada. It is known for its diversity, vibrant culture, and iconic landmarks such as the CN Tower and Royal Ontario Museum.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img class="card-img-top" src="https://cdn.britannica.com/56/94456-050-2ECDE7B8/Vancouver-British-Columbia-Canada.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Vancouver</h5>
+            <p class="card-text">Vancouver is a coastal seaport city in British Columbia, known for its stunning natural beauty, including mountains, forests, and beaches. It offers a diverse cultural scene and a mild climate.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img class="card-img-top" src="https://travel.destinationcanada.com/_next/image?url=https%3A%2F%2Fadmin.destinationcanada.com%2Fsites%2Fdefault%2Ffiles%2F2023-06%2FQC-Montreal-Skyline_hero.jpg&w=1920&q=75" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Montreal</h5>
+            <p class="card-text">Montreal is the largest city in the province of Quebec and the second-largest in Canada. It is renowned for its historic architecture, vibrant arts scene, and multiculturalism.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<section id="portfolio" class="portfolio-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card">
+            <img class="card-img-top" src="https://travalalberta-prod.dotcdn.io/contentAsset/image/275440d4-0432-409a-9e6e-b1a14eeea87e/fileAsset/filter/Resize,Crop,Jpeg/resize_h/979/resize_ro/13/crop_w/1800/crop_h/580/fp/0.46,0.55/jpeg_q/85" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Calgary</h5>
+              <p class="card-text">Calgary is a cosmopolitan city in Alberta, known for its modern skyline, annual Stampede festival, and proximity to the Canadian Rockies. It offers a thriving arts and culinary scene.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img class="card-img-top" src="https://cdn.britannica.com/20/94520-050-721BC614/Quebec-city-Canada.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Quebec city</h5>
+              <p class="card-text">"Quebec City, located in the Canadian province of Quebec, is renowned for its charming old town, historic fortifications, and European ambiance."</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img class="card-img-top" src="https://dinemagazine.ca/wp-content/uploads/2020/01/Panoramic-view-of-downtown-Ottawa-with-Parliament-Hill-100913_016-Credit-Ottawa-Tourism-1600x1068.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Ottawa</h5>
+              <p class="card-text">"Ottawa, the capital city of Canada, is known for its iconic Parliament Hill, stunning Gothic Revival architecture, and vibrant cultural scene."</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- Contact Form -->
+<section id="contact" class="contact-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 offset-md-3">
+        <form>
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" class="form-control" id="name" placeholder="Enter your name">
+          </div>
+          <div class="form-group">
+            <label for="email">Email address</label>
+            <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email">
+            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea class="form-control" id="message" rows="3"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer-section">
+  <div class="container text-center">
+    <p>&copy; 2024 Your Website. All rights reserved.</p>

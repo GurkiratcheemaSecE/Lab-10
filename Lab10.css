@@ -1,0 +1,26 @@
+/* Add your custom CSS styles here */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://theplanetd.com/images/Cities-in-Canada-Toronto.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  
+  .hero-section {
+    height: 400px; /* Adjust the height as needed */
+    background-image: url('https://www.toronto.ca/wp-content/uploads/2017/07/8e31-explore-visitor-banner.jpg'); /* Add your background image URL here */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+  }
+  
+  .services-section {
+    padding: 50px 0;
+  }
+  
+  
